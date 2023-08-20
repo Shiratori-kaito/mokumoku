@@ -155,3 +155,5 @@ ActiveRecord::Schema.define(version: 2022_01_19_072358) do
   add_foreign_key "user_prefectures", "prefectures"
   add_foreign_key "user_prefectures", "users"
 end
+
+
