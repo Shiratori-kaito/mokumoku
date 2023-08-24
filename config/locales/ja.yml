@@ -6,3 +6,12 @@ ja:
         commented_to_event: あなたのイベントにコメントがあった時
         attended_to_event: あなたのイベントに参加申し込みがあった時
         liked_event: あなたのイベントにいいねがついた時
+    user:
+      gender:
+        other: その他
+        man: 男性
+        woman: 女性
+  activerecord:
+    attributes:
+      event:
+        only_woman: 女性限定
