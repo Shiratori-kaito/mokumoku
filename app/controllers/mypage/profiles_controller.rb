@@ -3,6 +3,7 @@
 class Mypage::ProfilesController < Mypage::BaseController
   def show
     @user = current_user
+    @gender_options = User.genders_i18n.invert.to_a
   end
 
   def update

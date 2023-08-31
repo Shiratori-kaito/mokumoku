@@ -6498,6 +6498,25 @@ textarea.form-control-lg {
   margin-bottom: 0.5rem;
 }
 
+.card-women {
+  text-align: right;
+}
+
+.card-woman {
+  display: inline-block;
+  float: right;
+  height: 40px;
+  background-color: pink;
+  color: white;
+  padding: 10px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+.card-woman:only-woman {
+  display: none; /* 女性以外は非表示 */
+}
+
 .card-subtitle {
   margin-top: -0.25rem;
   margin-bottom: 0;

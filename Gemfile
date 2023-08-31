@@ -33,6 +33,7 @@ gem 'kaminari', git: 'https://github.com/kaminari/kaminari.git'
 gem 'rails-i18n'
 gem 'ransack'
 gem 'sorcery'
+gem 'pry-rails'
 
 gem 'factory_bot_rails'
 gem 'faker'
@@ -46,6 +47,9 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'rb-readline'
   gem 'rspec-rails'
+  gem 'capybara', '~> 3.23'
+  gem 'selenium-webdriver', '4.9.0'
+  gem 'webdrivers'
 end
 
 group :development do
